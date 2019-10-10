@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link type="image/x-icon" rel="shortcut icon" href="images/favicon.ico">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Middle East University</title>
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<!--<link href="css/bootstrap-rtl.min.css" rel="stylesheet">--><!-- removed regarding english language -->
+    <!-- Custom CSS -->
+    
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">	
+	<link href="css/bootstrap-select.min.css" rel="stylesheet">
+	<link href="css/owl.carousel.css" rel="stylesheet">
+	<link href="css/lightbox.css" rel="stylesheet">
+	<link href="css/aos.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<link href="css/style-english.css" rel="stylesheet"><!-- has been added regarding english language -->
+	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Cairo&subset=arabic" type="text/css">
+	
+
+</head>
+
+<body>
+<div class="fixed-header"><!-- start of fixed header -->
+<!-- Top bar section -->
+<div class="top_bar_section">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6 col-sm-12 hidden-xs hidden-sm">
+				<div class="navmenu">
+				
+					<a href="javascript:FullLayout();" class="jm-font-smaller" title="Full Layout">F</a>
+					<a href="javascript:wideLayout();" class="jm-font-smaller" title="Wide Layout">W</a>
+					<a href="javascript:browserZoomOut()" class="jm-font-smaller" title="Smaller Font">A -</a>
+					<a href="javascript:browserZoomDefault()" class="jm-font-normal" title="Default Font">A</a>
+					<a href="javascript:browserZoomIn()" class="jm-font-larger" title="Larger Font">A +</a>
+				
+				</div>
+			</div>
+			<div class="col-md-6 col-sm-12">
+				<div class="lang pull-left"><a href="/home-english.html">english</a></div>
+				<div class="search_top_bar pull-left">
+					<a href="javascript:submitHeaderSearch();" class="search-btn pull-left" ><i class="fa fa-search" aria-hidden="true"></i></a>
+					<form type="get" class="header-search-form pull-left" onsubmit="javascript:submitHeaderSearch();">
+						<input name="searchTerm" class="searchTerm-header" type="text" placeholder="البحث ..." />
+						<input type="submit" value="submit" id="submit-header-form" class="hidden" />
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- End top bar section -->
+
+<!-- header section -->
+<div class="header-section wide">
+	<div class="container relative-mob">
+	
+		<div class="logo pull-right"><a href="#"><img title="Logo" alt="Logo" src="images/logo.png" /></a></div>
+		<!-- desktop menu -->
+		<ul class="site-main-menu desktop-main-menu">
+			<li class="active"><a href="#">الرئيسية</a></li>
+			<li><a href="#">عن الجامعة</a>
+				<ul class="submenu multi">
+					<div class="part1">
+						<li class="title">جامعة الشرق الأوسط</li>
+						<li><a href="">كلمة رئيس الجامعة</a></li>
+						<li><a href="">كلمة رئيس مجلس الامناء</a></li>
+						<li><a href="">الرؤيا والرسالة والاهداف</a></li>
+						<li><a href="">مجلس العمداء</a></li>
+						<li><a href="">مجلس الامناء</a></li>
+						<li><a href="">معرض الصور</a></li>
+						<li><a href="">الاتفاقيات</a></li>
+					</div>
+					<div class="part2">
+						<li class="title">وحدات الجامعة</li>
+						<li><a href="">المراكز الادارية</a></li>
+						<li><a href="">دوائر الجامعة</a></li>
+						<li><a href="">مكاتب التابعة للجامعة</a></li>
+					</div>
+				</ul>
+			</li>
+			<li><a class="no-pointer">الكليات</a>
+				<ul class="submenu multi">
+					<div class="part1">
+						<li class="title">الكليات</li>
+						<li><a href="">كلية الاعمال</a></li>
+						<li><a href="">كلية تكنولوجيا المعلومات</a></li>
+						<li><a href="">كلية الحقوق</a></li>
+						<li><a href="">كلية الاعلام</a></li>
+						<li><a href="">كلية الاداب والعلوم</a></li>
+						<li><a href="">كلية الهندسة</a></li>
+						<li><a href="">كلية الصيدلية</a></li>
+					</div>
+					<div class="part2">
+						<li><a href="">كلية العلوم التربوية</a></li>
+						<li><a href="">كلية العمارة والتصميم</a></li>
+						<li><a href="">عمادة الدراسات العليا</a></li>
+						<li><a href="">مكاتب التابعة للجامعة</a></li>
+					</div>
+				</ul>
+			</li>
+			<li><a href="#">الطلبة المستجدين</a>
+					<ul class="submenu single">
+						<li><a href="">برنامج البكالوريوس</a></li>
+						<li><a href="">برنامج الماجستير</a></li>
+					
+					</ul>
+			</li>
+			<li><a href="#">القبول والتسجيل</a></li>
+			<li><a href="#">المكتبة</a>
+				<ul class="submenu single">
+						<li><a href="">الرسائل الجامعية</a></li>
+						<li><a href="">الابحاث</a></li>
+					</ul>
+			</li>
+			<li><a href="#">اتصل بنا</a></li>
+		</ul>
+	<!-- end desktop menu  -->
+		
+		<!-- Mobile Menu -->
+			<a href="#" class="toggle-mobile-menu"><i class="fa fa-bars"></i></a>
+			<div class="mobile-menu-main hidden-md hidden-lg">
+				<ul>
+					<li><a class="has-submenu" ><i class="glyphicon glyphicon-plus"></i> الرئيسية</a>
+						<ul class="submenu-mob">
+							<li><a href="">الرئيسية</a></li>
+							<li><a href="">الرئيسية</a></li>
+							<li><a href="">الرئيسية</a></li>
+						</ul>
+					</li>
+					<li><a href="">الرئيسية</a></li>
+					<li><a href="">كلمة رئيس مجلس الامناء</a></li>
+					<li><a class="has-submenu" ><i class="glyphicon glyphicon-plus"></i> الرئيسية</a>
+						<ul class="submenu-mob">
+							<li><a href="">كلمة رئيس مجلس الامناء</a></li>
+							<li><a href="">الرئيسية</a></li>
+							<li><a href="">الرئيسية</a></li>
+						</ul>
+					</li>
+					<li><a href="">الرئيسية</a></li>
+					<li><a href="">الرئيسية</a></li>
+				</ul>
+			</div>
+		<!-- End mobile menu -->		
+		
+	</div>
+</div>
+<!-- End header section -->
+</div> <!-- End of fixed header -->
+
+<!-- video section -->
+<div class="wide main-image-homePage">
+	<div class="container">
+		<!--<video class="video-class" controls autoplay loop>
+		  <source src="video/video.mp4" type="video/mp4" >
+		  Your browser does not support the video tag.
+		</video>-->
+		<!-- Main page slider -->
+		<div class="main-page-slider">
+			<img src="images/slider/h11.jpg" />
+			<img src="images/slider/h22.jpg" />
+			<img src="images/slider/img2.png" />
+		</div>
+		<!-- Main slider -->
+		
+	</div>
+</div>
+<!-- end video section -->
+
+
+
+<!-- ****************************** stuff Content ************************* -->
+
+<div class="wide two-sides-page-bg div-before-footer" >
+
+	<div class="container">
+	<div class="row">
+	<!-- sidebar -->
+		<div class="col-sm-4 col-md-3">
+		<div class="col-xs-12">
+<!-- TO BACK END DEVELOPER **** IMPORTANT: ADD class open beside the has-sub-menu li class to make the li opens by default on load 
+this is when you open a page and you need a default tab to be active just give the parents li's open class,
+For example: 
+<li class="has-sub-menu open"><a>الأقسام والبرامج الأكاديمية <i class="glyphicon glyphicon-plus"></i></a>
+------------
+this will make the sub menu open by default.
+ ***** --->
+			<div class="default-sidebar">
+				<!-- LOGIN FORM -->
+			
+            <div class="form-login">
+				<h4>تسجيل الدخول</h4>
+				<form id="login-form" type="post">
+					<input type="text"  id="userName" name="username"  required  class="form-control input-sm chat-input" placeholder="اسم المستخدم" />
+					</br>
+					<input type="text" name="password" id="userPassword" required class="form-control input-sm chat-input" placeholder="كلمة المرور" />
+					</br>
+					<div class="wrapper">
+					<button type="submit" class="btn btn-search btn-danger">
+										<i class="fa fa-sign-in"></i>
+										<span class="label-icon">دخول</span>
+									</button>
+				
+				</form>
+				</div>
+				</div>
+			
+			
+				
+				<!-- END LOGIN FORM -->	
+			</div>
+		</div>
+		
+		</div>
+<!-- sidebar end -->
+<!-- other-side -->
+		<div class="col-sm-8 col-md-9">
+			<div class="row">
+				<div class="col-xs-12"><h3 class="title title-mini">طاقم الكلية</h3></div>
+			</div>	
+			
+			<div class="row">
+				<div class="col-xs-12">
+				
+					<!-- single-person -->
+					<div class="single-person-box">
+						<div class="person--image">
+							<img src="images/dr-hussain-alothman.jpg" />
+							<a class="cv-show" target="_blank" href="http://www.grad.illinois.edu/sites/default/files/pdfs/cvsamples.pdf">عرض السيرة الذاتية</a>
+						</div>
+						<div class="person--info">
+							<p class="text-red">د. حسين العثمان</p>
+							<p>القائم باعمال عميد كلية الآداب والعلوم الإنسانية والاجتماعية</p>
+							<p>
+								<span class="text-red">الرتبة الأكاديمية</span>
+								<span class="text-red">أستاذ مشارك</span>
+							</p>
+							<p>
+								<span class="text-red">البريد الإلكتروني</span>
+								<span ><a class="text-red" href="mailto:halothman@sharjah.ac.ae">halothman@sharjah.ac.ae</a></span>
+							</p>
+							<p>
+								<span class="text-red">الهاتف</span>
+								<span>0097165053200</span>
+							</p>
+							<p>
+								<span class="text-red">الاهتمامات البحثية</span>
+								<span>التحديث والتنمية، الأسرة، المرأة، الديمقراطية، وعلم الاجتماع التطبيقي</span>
+							</p>							
+						</div>
+						
+					</div>
+					<!-- end single person -->
+					<!-- single-person -->
+					<div class="single-person-box">
+						<div class="person--image">
+							<img src="images/dr-hussain-alothman.jpg" />
+							<a class="cv-show" target="_blank" href="http://www.grad.illinois.edu/sites/default/files/pdfs/cvsamples.pdf">عرض السيرة الذاتية</a>
+						</div>
+						<div class="person--info">
+							<p class="text-red">د. حسين العثمان</p>
+							<p>القائم باعمال عميد كلية الآداب والعلوم الإنسانية والاجتماعية</p>
+							<p>
+								<span class="text-red">الرتبة الأكاديمية</span>
+								<span class="text-red">أستاذ مشارك</span>
+							</p>
+							<p>
+								<span class="text-red">البريد الإلكتروني</span>
+								<span ><a class="text-red" href="mailto:halothman@sharjah.ac.ae">halothman@sharjah.ac.ae</a></span>
+							</p>
+							<p>
+								<span class="text-red">الهاتف</span>
+								<span>0097165053200</span>
+							</p>
+							<p>
+								<span class="text-red">الاهتمامات البحثية</span>
+								<span>التحديث والتنمية، الأسرة، المرأة، الديمقراطية، وعلم الاجتماع التطبيقي</span>
+							</p>							
+						</div>
+						
+					</div>
+					<!-- end single person -->
+					<!-- single-person -->
+					<div class="single-person-box">
+						<div class="person--image">
+							<img src="images/dr-hussain-alothman.jpg" />
+							<a class="cv-show" target="_blank" href="http://www.grad.illinois.edu/sites/default/files/pdfs/cvsamples.pdf">عرض السيرة الذاتية</a>
+						</div>
+						<div class="person--info">
+							<p class="text-red">د. حسين العثمان</p>
+							<p>القائم باعمال عميد كلية الآداب والعلوم الإنسانية والاجتماعية</p>
+							<p>
+								<span class="text-red">الرتبة الأكاديمية</span>
+								<span class="text-red">أستاذ مشارك</span>
+							</p>
+							<p>
+								<span class="text-red">البريد الإلكتروني</span>
+								<span ><a class="text-red" href="mailto:halothman@sharjah.ac.ae">halothman@sharjah.ac.ae</a></span>
+							</p>
+							<p>
+								<span class="text-red">الهاتف</span>
+								<span>0097165053200</span>
+							</p>
+							<p>
+								<span class="text-red">الاهتمامات البحثية</span>
+								<span>التحديث والتنمية، الأسرة، المرأة، الديمقراطية، وعلم الاجتماع التطبيقي</span>
+							</p>							
+						</div>
+						
+					</div>
+					<!-- end single person -->
+															
+					
+					
+				</div>
+			</div>	
+		
+		</div>
+<!-- other-side-end -->	
+	</div>
+	
+	</div>
+		
+	
+
+</div>
+
+<!-- ****************************** end stuff Content ************************* -->
+
+
+
+<!-- footer -->
+<div class="wide footer-first-bg">
+	<div class="container relative">
+			<img src="images/grad-hat.png" class="footer-hat" />
+			<h1 class="pull-right">Preparing Leaders</h1>
+	</div>	
+</div>
+
+<div class="wide footer-bg-white">
+	<div class="container">
+		<div class="row">
+		<div class="col-sm-6 no-padding">
+		<div class="row">
+			<div class="phones-numbers col-sm-6">
+				<h4 class="website-footer-link"><a href="http://www.meu.edu.jo">www.meu.edu.jo</a></h4>
+				<h4><span>Email. </span><a href="mailto:enquiry@meu.edu.jo">enquiry@meu.edu.jo</a></h4>
+			</div>
+		
+			<div class="phones-numbers col-sm-6">
+				<h4><span>Tel. </span>+962 6 4790222</h4>
+				<h4><span>Mob. </span>+962 79 7122000</h4>
+			</div>
+		</div>
+		</div>
+		<div class="col-sm-2">
+			<div class="mobile-stores">
+				<a href="#"><img src="images/play-store.png" /></a>
+				<a href="#"><img src="images/google-store.png" /></a>
+			</div>
+		</div>
+			<div class="col-sm-4">
+				<ul class="footer-socail">
+					<li><a title="facebook" target="_blank" class="facebook" href=""><i class="fa fa-facebook-square" aria-hidden="true"></i><span>meujo</span></a></li>
+					<li><a title="instagram" target="_blank" class="instagram" href=""><i class="fa fa-instagram" aria-hidden="true"></i><span>meujo</span></a></li>
+					<li><a title="twitter" target="_blank" class="twitter" href=""><i class="fa fa-twitter-square" aria-hidden="true"></i><span>meuedujo</span></a></li>
+					<li><a title="YouTube" target="_blank" class="youtube" href=""><i class="fa fa-youtube-square" aria-hidden="true"></i><span>middleeastuniversityjordan</span></a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="wide footer-last-bg">
+	<div class="container relative text-center">
+			<ul>
+				<li><a href="#">اتصل بنا</a></li>
+				<li><a href="#">خارطة الجامعة</a></li>
+				<li><a href="#">وظائف</a></li>
+				<li><a href="#">بعثات</a></li>
+				<li><a href="#">عطائات</a></li>
+				<li><a href="#">مشتريات</a></li>
+				<li><a href="#">دليل الهاتف</a></li>
+				<li><a href="#">روابط هامة</a></li>
+				<li><a href="#">جامعات</a></li>
+			</ul>
+			<label>جامعة الشرق الاوسط / دائرة تكنولوجيا المعلومات 2016</label>
+	</div>	
+</div>
+<!-- end footer -->
+
+
+
+
+
+<!-- jQuery -->
+<script src="js/jquery.js"></script>
+<!-- Bootstrap Core JavaScript -->
+<script src="js/bootstrap.min.js"></script>
+<script src="js/bootstrap-select.js"></script>
+<script src="js/lightbox.js"></script>
+<script src="js/jquery.matchHeight-min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/aos.js"></script>
+<script src="js/app.js"></script>
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+	
+	
+</body>
+</html>

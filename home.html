@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link type="image/x-icon" rel="shortcut icon" href="images/favicon.ico">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>جامعة الشرق الأوسط</title>
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/bootstrap-rtl.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">	
+	<link href="css/bootstrap-select.min.css" rel="stylesheet">
+	<link href="css/owl.carousel.css" rel="stylesheet">
+	<link href="css/lightbox.css" rel="stylesheet">
+	<link href="css/aos.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Cairo&subset=arabic" type="text/css">
+	
+
+</head>
+
+<body>
+<div class="fixed-header"><!-- start of fixed header -->
+<!-- Top bar section -->
+<div class="top_bar_section">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6 col-sm-12 hidden-xs hidden-sm">
+				<div class="navmenu">
+				
+					<a href="javascript:FullLayout();" class="jm-font-smaller" title="Full Layout">F</a>
+					<a href="javascript:wideLayout();" class="jm-font-smaller" title="Wide Layout">W</a>
+					<a href="javascript:browserZoomOut()" class="jm-font-smaller" title="Smaller Font">A -</a>
+					<a href="javascript:browserZoomDefault()" class="jm-font-normal" title="Default Font">A</a>
+					<a href="javascript:browserZoomIn()" class="jm-font-larger" title="Larger Font">A +</a>
+				
+				</div>
+			</div>
+			<div class="col-md-6 col-sm-12">
+				<div class="lang pull-left"><a href="/home-english.html">english</a></div>
+				<div class="search_top_bar pull-left">
+					<a href="javascript:submitHeaderSearch();" class="search-btn pull-left" ><i class="fa fa-search" aria-hidden="true"></i></a>
+					<form type="get" class="header-search-form pull-left" onsubmit="javascript:submitHeaderSearch();">
+						<input name="searchTerm" class="searchTerm-header" type="text" placeholder="البحث ..." />
+						<input type="submit" value="submit" id="submit-header-form" class="hidden" />
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- End top bar section -->
+
+<!-- header section -->
+<div class="header-section wide">
+	<div class="container relative-mob">
+	
+		<div class="logo pull-right"><a href="#"><img title="Logo" alt="Logo" src="images/logo.png" /></a></div>
+		<!-- desktop menu -->
+		<ul class="site-main-menu desktop-main-menu">
+			<li class="active"><a href="#">الرئيسية</a></li>
+			<li><a href="#">عن الجامعة</a>
+				<ul class="submenu multi">
+					<div class="part1">
+						<li class="title">جامعة الشرق الأوسط</li>
+						<li><a href="/meu/cleanDesign/president-word.html">كلمة رئيس الجامعة</a></li>
+						<li><a href="/meu/cleanDesign/president-word.html">كلمة رئيس مجلس الامناء</a></li>
+						<li><a href="">الرؤيا والرسالة والاهداف</a></li>
+						<li><a href="">مجلس العمداء</a></li>
+						<li><a href="">مجلس الامناء</a></li>
+						<li><a href="">معرض الصور</a></li>
+						<li><a href="">الاتفاقيات</a></li>
+					</div>
+					<div class="part2">
+						<li class="title">وحدات الجامعة</li>
+						<li><a href="">المراكز الادارية</a></li>
+						<li><a href="">دوائر الجامعة</a></li>
+						<li><a href="">مكاتب التابعة للجامعة</a></li>
+					</div>
+				</ul>
+			</li>
+			<li><a class="no-pointer">الكليات</a>
+				<ul class="submenu multi">
+					<div class="part1">
+						<li class="title">الكليات</li>
+						<li><a href="">كلية الاعمال</a></li>
+						<li><a href="">كلية تكنولوجيا المعلومات</a></li>
+						<li><a href="">كلية الحقوق</a></li>
+						<li><a href="">كلية الاعلام</a></li>
+						<li><a href="">كلية الاداب والعلوم</a></li>
+						<li><a href="">كلية الهندسة</a></li>
+						<li><a href="">كلية الصيدلية</a></li>
+					</div>
+					<div class="part2">
+						<li><a href="">كلية العلوم التربوية</a></li>
+						<li><a href="">كلية العمارة والتصميم</a></li>
+						<li><a href="">عمادة الدراسات العليا</a></li>
+						<li><a href="">مكاتب التابعة للجامعة</a></li>
+					</div>
+				</ul>
+			</li>
+			<li><a href="#">الطلبة المستجدين</a>
+					<ul class="submenu single">
+						<li><a href="">برنامج البكالوريوس</a></li>
+						<li><a href="">برنامج الماجستير</a></li>
+					
+					</ul>
+			</li>
+			<li><a href="#">القبول والتسجيل</a></li>
+			<li><a href="#">المكتبة</a>
+				<ul class="submenu single">
+						<li><a href="">الرسائل الجامعية</a></li>
+						<li><a href="">الابحاث</a></li>
+					</ul>
+			</li>
+			<li><a href="#">اتصل بنا</a></li>
+		</ul>
+	<!-- end desktop menu  -->
+		
+		<!-- Mobile Menu -->
+			<a href="#" class="toggle-mobile-menu"><i class="fa fa-bars"></i></a>
+			<div class="mobile-menu-main hidden-md hidden-lg">
+				<ul>
+					<li><a class="has-submenu" ><i class="glyphicon glyphicon-plus"></i> الرئيسية</a>
+						<ul class="submenu-mob">
+							<li><a href="">الرئيسية</a></li>
+							<li><a href="">الرئيسية</a></li>
+							<li><a href="">الرئيسية</a></li>
+						</ul>
+					</li>
+					<li><a href="">الرئيسية</a></li>
+					<li><a href="">كلمة رئيس مجلس الامناء</a></li>
+					<li><a class="has-submenu" ><i class="glyphicon glyphicon-plus"></i> الرئيسية</a>
+						<ul class="submenu-mob">
+							<li><a href="">كلمة رئيس مجلس الامناء</a></li>
+							<li><a href="">الرئيسية</a></li>
+							<li><a href="">الرئيسية</a></li>
+						</ul>
+					</li>
+					<li><a href="">الرئيسية</a></li>
+					<li><a href="">الرئيسية</a></li>
+				</ul>
+			</div>
+		<!-- End mobile menu -->		
+		
+	</div>
+</div>
+<!-- End header section -->
+</div> <!-- End of fixed header -->
+
+<!-- video section -->
+<div class="wide main-image-homePage">
+	<div class="container">
+		<!--<video class="video-class" controls autoplay loop>
+		  <source src="video/video.mp4" type="video/mp4" >
+		  Your browser does not support the video tag.
+		</video>-->
+		<!-- Main page slider -->
+		<div class="main-page-slider">
+			<img src="images/slider/h11.jpg" />
+			<img src="images/slider/h22.jpg" />
+			<img src="images/slider/img2.png" />
+		</div>
+		<!-- Main slider -->
+		
+	</div>
+</div>
+<!-- end video section -->
+<!--  POST SLIDER -->
+	<div class="container">
+		<div class="slider-posts">
+			<div class="single-post">
+				<p class="description">
+					<a href="">جامعة الشرق الاوسط توفر خدمة الارشاد للطلبة المستجدين</a>
+				</p>
+				<img src="images/news1.png" />
+				<p class="date"><a href="">الأربعاء، 14 أيلول/سبتمبر 2016 16:16</a></p>
+			</div>
+			
+			<div class="single-post">
+				<p class="description">
+					<a href="">جامعة الشرق الاوسط توفر خدمة الارشاد للطلبة المستجدين</a>
+			</p>
+				<img src="images/news1.png" />
+				<p class="date"><a href="">الأربعاء، 14 أيلول/سبتمبر 2016 16:16</a></p>
+			</div>
+			
+			<div class="single-post">
+				<p class="description">
+					<a href="">جامعة الشرق الاوسط توفر خدمة الارشاد للطلبة المستجدين</a>
+				</p>
+				<img src="images/news1.png" />
+				<p class="date"><a href="">الأربعاء، 14 أيلول/سبتمبر 2016 16:16</a></p>
+			</div>
+			
+			<div class="single-post">
+				<p class="description">
+					<a href="">جامعة الشرق الاوسط توفر خدمة الارشاد للطلبة المستجدين</a>
+				</p>
+				<img src="images/news1.png" />
+				<p class="date"><a href="">الأربعاء، 14 أيلول/سبتمبر 2016 16:16</a></p>
+			</div>
+			
+			<div class="single-post">
+				<p class="description">
+					<a href="">جامعة الشرق الاوسط توفر خدمة الارشاد للطلبة المستجدين</a>
+				</p>
+				<img src="images/news1.png" />
+				<p class="date"><a href="">الأربعاء، 14 أيلول/سبتمبر 2016 16:16</a></p>
+			</div>	
+			
+		</div>
+		
+	</div>
+<!-- End POST SLIDER -->
+	
+<!-- Services block -->
+<div class="container">
+	<div class="services-block text-center">
+		<a href="#">خدمات</a>
+	</div>
+</div>
+<div class="container services-list">
+<div class="row-fluid clearfix bg">
+
+	<div class="col-sm-4">
+		<ul>
+			<li><img src="images/sis.png" /><a href="#">نظام التعلم الالكتروني</a></li>
+			<li><img src="images/sis.png" /><a href="#">نظام التعلم الالكتروني</a></li>
+			<li><img src="images/sis.png" /><a href="#">نظام التعلم الالكتروني</a></li>
+			<li><img src="images/sis.png" /><a href="#">نظام التعلم الالكتروني</a></li>
+		</ul>
+	</div>
+	<div class="col-sm-4">
+		<ul>
+			<li><img src="images/sis.png" /><a href="#">نظام التعلم الالكتروني</a></li>
+			<li><img src="images/sis.png" /><a href="#">نظام التعلم الالكتروني</a></li>
+			<li><img src="images/sis.png" /><a href="#">نظام التعلم الالكتروني</a></li>
+			<li><img src="images/sis.png" /><a href="#">نظام التعلم الالكتروني</a></li>
+		</ul>
+	</div>
+	<div class="col-sm-4">
+		<ul>
+			<li><img src="images/sis.png" /><a href="#">نظام التعلم الالكتروني</a></li>
+			<li><img src="images/sis.png" /><a href="#">نظام التعلم الالكتروني</a></li>
+			<li><img src="images/sis.png" /><a href="#">نظام التعلم الالكتروني</a></li>
+			<li><img src="images/sis.png" /><a href="#">نظام التعلم الالكتروني</a></li>
+		</ul>
+	</div>
+	
+	</div>
+</div>
+<!--- End Services block -->	
+	
+<!-- lists-of-lists -->
+<div class="wide bg-wide-gray lists-of-lists">
+<div class="container">
+	<div class="row">
+		<!-- 1st list -->
+		<div class="col-sm-4">
+			<ul class="default--list">
+				<li class="title">اخبار الجامعة</li>
+				<li><a class="has-sublist">اعلان هام لطلبة الخرجين 2016</a>
+					<ul class="sublist">
+						<li>اعلان هام لطلبة الخرجين 2016-2017</li>
+						<li><a class="read-more" href="#">اقرأ المزيد</a></li>
+					</ul>
+				</li>
+
+				<li><a class="has-sublist">اعلان هام لطلبة الخرجين 2016</a>
+					<ul class="sublist">
+						<li>اعلان هام لطلبة الخرجين 2016-2017</li>
+						<li><a class="read-more" href="#">اقرأ المزيد</a></li>
+					</ul>
+				</li>
+				
+				<li><a class="has-sublist">اعلان هام لطلبة الخرجين 2016</a>
+					<ul class="sublist">
+						<li>اعلان هام لطلبة الخرجين 2016-2017</li>
+						<li><a class="read-more" href="#">اقرأ المزيد</a></li>
+					</ul>
+				</li>
+				
+				<li><a class="has-sublist">اعلان هام لطلبة الخرجين 2016</a>
+					<ul class="sublist">
+						<li>اعلان هام لطلبة الخرجين 2016-2017</li>
+						<li><a class="read-more" href="#">اقرأ المزيد</a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+		
+	<!-- 2nd list -->
+		<div class="col-sm-4">
+			<ul class="default--list">
+				<li class="title">اعلانات</li>
+				<li><a class="has-sublist">اعلان هام لطلبة الخرجين 2016</a>
+					<ul class="sublist">
+						<li>اعلان هام لطلبة الخرجين 2016-2017</li>
+						<li><a class="read-more" href="#">اقرأ المزيد</a></li>
+					</ul>
+				</li>
+
+				<li><a class="has-sublist">اعلان هام لطلبة الخرجين 2016</a>
+					<ul class="sublist">
+						<li>اعلان هام لطلبة الخرجين 2016-2017</li>
+						<li><a class="read-more" href="#">اقرأ المزيد</a></li>
+					</ul>
+				</li>
+				
+				<li><a class="has-sublist">اعلان هام لطلبة الخرجين 2016</a>
+					<ul class="sublist">
+						<li>اعلان هام لطلبة الخرجين 2016-2017</li>
+						<li><a class="read-more" href="#">اقرأ المزيد</a></li>
+					</ul>
+				</li>
+				
+				<li><a class="has-sublist">اعلان هام لطلبة الخرجين 2016</a>
+					<ul class="sublist">
+						<li>اعلان هام لطلبة الخرجين 2016-2017</li>
+						<li><a class="read-more" href="#">اقرأ المزيد</a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+		<!-- 3rd list -->
+		<div class="col-sm-4">
+			<div class="default--list">
+				<li class="title">احداث ومؤتمرات</li>
+			</div>
+			<ul class="default--list fixed-height-list calender-list">
+				<li>
+					<a class="date" href="#"><i class="fa fa-calendar" aria-hidden="true"></i> 01 تشرين1 2016</a>
+					<a class="event-title" href="">احداث ومؤتمرات جامعة الشرق الاوسط</a>
+				</li>
+				<li>
+					<a class="date" href="#"><i class="fa fa-calendar" aria-hidden="true"></i> 01 تشرين1 2016</a>
+					<a class="event-title" href="">احداث ومؤتمرات جامعة الشرق الاوسط</a>
+				</li>
+
+				<li>
+					<a class="date" href="#"><i class="fa fa-calendar" aria-hidden="true"></i> 01 تشرين1 2016</a>
+					<a class="event-title" href="">احداث ومؤتمرات جامعة الشرق الاوسط</a>
+				</li>
+				<li>
+					<a class="date" href="#"><i class="fa fa-calendar" aria-hidden="true"></i> 01 تشرين1 2016</a>
+					<a class="event-title" href="">احداث ومؤتمرات جامعة الشرق الاوسط</a>
+				</li>
+				<li>
+					<a class="date" href="#"><i class="fa fa-calendar" aria-hidden="true"></i> 01 تشرين1 2016</a>
+					<a class="event-title" href="">احداث ومؤتمرات جامعة الشرق الاوسط</a>
+				</li>
+				<li>
+					<a class="date" href="#"><i class="fa fa-calendar" aria-hidden="true"></i> 01 تشرين1 2016</a>
+					<a class="event-title" href="">احداث ومؤتمرات جامعة الشرق الاوسط</a>
+				</li>
+				
+				
+			</ul>
+		</div>
+	</div>
+</div>
+</div>
+<!--- End lists of lists -->	
+	
+<!-- links box -->
+<div class="wide links-box-bg">
+<div class="container">
+	<div class="row">
+		<div class="col-sm-3 text-center"><h3><a href="">العطائات والمنقاصات</a></h3></div>
+		<div class="col-sm-3 text-center"><h3><a href="">حركة المواصلات</a></h3></div>
+		<div class="col-sm-3 text-center"><h3><a href="">الخرجين</a></h3></div>
+		<div class="col-sm-3 text-center"><h3><a href="">حفل التخرج</a></h3></div>
+	</div>
+</div>
+</div>
+<!-- End links box -->
+
+<!-- collection list -->
+<div class="wide bg-wide-white lists-of-lists collection-of-lists">
+<div class="container">
+	<div class="row">
+		<!-- 1st list -->
+		<div class="col-sm-4">
+			<div class="default--list">
+				<li class="title no-border">صور</li>
+			</div>
+			<div class="university-images-collection">
+				<a href="images/Middle-East-University.jpg" data-lightbox="img-1"><img src="images/Middle-East-University.jpg" /></a>
+				<a href="images/news3.png" data-lightbox="img-1"><img src="images/news3.png" /></a></a>
+				<a href="images/news2.png" data-lightbox="img-1"><img src="images/news2.png" /></a>
+			</div>
+		</div>
+		
+	<!-- 2nd list -->
+		<div class="col-sm-4">
+			<div class="default--list">
+				<li class="title no-border">فيلم الجامعة</li>
+			</div>
+			<div class="university-muviee">
+				<iframe src="https://www.youtube.com/embed/QqECUrwzvp8?rel=0" width="370" height="238" style="max-width:100%;" frameborder="0" allowfullscreen=""></iframe>
+			</div>
+		</div>
+		<!-- 3rd list -->
+		<div class="col-sm-4">
+			<div class="default--list">
+				<li class="title">التقويم الجامعي</li>
+			</div>
+			<ul class="default--list fixed-height-list calender-list">
+				<li>
+					<a class="date" href="#"><i class="fa fa-calendar" aria-hidden="true"></i> 01 تشرين1 2016</a>
+					<a class="event-title" href="">احداث ومؤتمرات جامعة الشرق الاوسط</a>
+				</li>
+				<li>
+					<a class="date" href="#"><i class="fa fa-calendar" aria-hidden="true"></i> 01 تشرين1 2016</a>
+					<a class="event-title" href="">بدء العام الجامعي وتسجيل الطلبة القدامى ودوام أعضاء هيئة التدريس</a>
+				</li>
+
+				<li>
+					<a class="date" href="#"><i class="fa fa-calendar" aria-hidden="true"></i> 01 تشرين1 2016</a>
+					<a class="event-title" href="">احداث ومؤتمرات جامعة الشرق الاوسط</a>
+				</li>
+				<li>
+					<a class="date" href="#"><i class="fa fa-calendar" aria-hidden="true"></i> 01 تشرين1 2016</a>
+					<a class="event-title" href="">احداث ومؤتمرات جامعة الشرق الاوسط</a>
+				</li>
+				<li>
+					<a class="date" href="#"><i class="fa fa-calendar" aria-hidden="true"></i> 01 تشرين1 2016</a>
+					<a class="event-title" href="">احداث ومؤتمرات جامعة الشرق الاوسط</a>
+				</li>
+				<li>
+					<a class="date" href="#"><i class="fa fa-calendar" aria-hidden="true"></i> 01 تشرين1 2016</a>
+					<a class="event-title" href="">احداث ومؤتمرات جامعة الشرق الاوسط</a>
+				</li>
+				
+				
+			</ul>
+		</div>
+	</div>
+</div>
+</div>
+<!-- End collection list -->
+
+<!--  partner slider -->
+<div class="wide bg-wide-white partner-container div-before-footer">
+<div class="container">
+	<div class="row">
+		<div class="partner-slider">
+			<a href="#" target="_blank"><img src="images/partners/talal.jpg" target="_blank" /></a>
+			<a href="#" target="_blank"><img src="images/partners/شعار المجلس11.jpg" target="_blank" /></a>
+			<a href="#" target="_blank"><img src="images/partners/MEU aktaboot.png" target="_blank" /></a>
+			<a href="#" target="_blank"><img src="images/partners/ba7eth3elmi.png" target="_blank" /></a>
+			<a href="#" target="_blank"><img src="images/partners/277064_126245174139649_941346112_n.jpg" target="_blank" /></a>
+			<a href="#" target="_blank"><img src="images/partners/ta3lem3a.jpg" target="_blank" /></a>
+			<a href="#" target="_blank"><img src="images/partners/hassanshabbab.jpg" target="_blank" /></a>
+			<a href="#" target="_blank"><img src="images/partners/univs.jpg" target="_blank" /></a>
+			<a href="#" target="_blank"><img src="images/partners/tanm.jpg" target="_blank" /></a>
+		</div>
+	</div>
+</div>
+</div>
+<!-- end partner slider -->
+
+
+<!-- footer -->
+<div class="wide footer-first-bg">
+	<div class="container relative">
+			<img src="images/grad-hat.png" class="footer-hat" />
+			<h1 class="pull-right">Preparing Leaders</h1>
+	</div>	
+</div>
+
+<div class="wide footer-bg-white">
+	<div class="container">
+		<div class="row">
+		<div class="col-sm-6 no-padding">
+		<div class="row">
+			<div class="phones-numbers col-sm-6">
+				<h4 class="website-footer-link"><a href="http://www.meu.edu.jo">www.meu.edu.jo</a></h4>
+				<h4><span>Email. </span><a href="mailto:enquiry@meu.edu.jo">enquiry@meu.edu.jo</a></h4>
+			</div>
+		
+			<div class="phones-numbers col-sm-6">
+				<h4><span>Tel. </span>+962 6 4790222</h4>
+				<h4><span>Mob. </span>+962 79 7122000</h4>
+			</div>
+		</div>
+		</div>
+		<div class="col-sm-2">
+			<div class="mobile-stores">
+				<a href="#"><img src="images/play-store.png" /></a>
+				<a href="#"><img src="images/google-store.png" /></a>
+			</div>
+		</div>
+			<div class="col-sm-4">
+				<ul class="footer-socail">
+					<li><a title="facebook" target="_blank" class="facebook" href=""><i class="fa fa-facebook-square" aria-hidden="true"></i><span>meujo</span></a></li>
+					<li><a title="instagram" target="_blank" class="instagram" href=""><i class="fa fa-instagram" aria-hidden="true"></i><span>meujo</span></a></li>
+					<li><a title="twitter" target="_blank" class="twitter" href=""><i class="fa fa-twitter-square" aria-hidden="true"></i><span>meuedujo</span></a></li>
+					<li><a title="YouTube" target="_blank" class="youtube" href=""><i class="fa fa-youtube-square" aria-hidden="true"></i><span>middleeastuniversityjordan</span></a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="wide footer-last-bg">
+	<div class="container relative text-center">
+			<ul>
+				<li><a href="#">اتصل بنا</a></li>
+				<li><a href="#">خارطة الجامعة</a></li>
+				<li><a href="#">وظائف</a></li>
+				<li><a href="#">بعثات</a></li>
+				<li><a href="#">عطائات</a></li>
+				<li><a href="#">مشتريات</a></li>
+				<li><a href="#">دليل الهاتف</a></li>
+				<li><a href="#">روابط هامة</a></li>
+				<li><a href="#">جامعات</a></li>
+			</ul>
+			<label>جامعة الشرق الاوسط / دائرة تكنولوجيا المعلومات 2016</label>
+	</div>	
+</div>
+<!-- end footer -->
+
+
+
+
+<!-- jQuery -->
+<script src="js/jquery.js"></script>
+<!-- Bootstrap Core JavaScript -->
+<script src="js/bootstrap.min.js"></script>
+<script src="js/bootstrap-select.js"></script>
+<script src="js/lightbox.js"></script>
+<script src="js/jquery.matchHeight-min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/aos.js"></script>
+<script src="js/app.js"></script>
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+	
+</body>
+</html>

@@ -1,0 +1,131 @@
+.single-post{
+	direction:ltr;
+}
+
+.slider-posts  .owl-controls{
+	right: auto;
+	left:20px;
+}
+
+.footer-socail{
+	direction:rtl;
+}
+.footer-socail li a, .footer-socail li a:hover{
+	text-align:right;
+}
+@media(min-width:768px){
+	.phones-numbers:first-child {
+		border-right: 2px solid #58585A;
+	}
+}
+.phones-numbers:last-child {
+    border-right: none;
+}
+
+
+.site-main-menu ul.submenu{
+	right:auto;
+	left:0;
+}
+
+.site-main-menu ul.submenu.multi > div{
+	float:left;
+}
+
+.site-main-menu ul.submenu.multi > div.part1 {
+    border-right: 1px solid rgba(0,0,0,0.1);
+	border-left:none;
+}
+.footer-first-bg .footer-hat{
+	right:0;
+	left:auto;
+}
+.footer-first-bg .pull-right{
+	float:left !important;
+}
+@media(max-width:767px){
+	.search_top_bar{
+		float:right !important;
+	}
+}
+@media(min-width:922px){
+	.top_bar_section .pull-left{
+		float:right !important;
+	}
+	.top_bar_section .pull-right{
+		float:left !important;
+	}
+	.top_bar_section .navmenu{
+		float:left;
+	}
+}
+
+
+/** Details **/
+.single-news-post:nth-child(odd) {
+    border-right: #444 1px solid;
+	border-left:none;
+}
+.single-static-section .section-links li{
+	float:left;
+}
+
+.read-more-link{
+	float:right !important;
+}
+
+ul.default-sidebar .sub-menu a:before{
+	float:right;
+}
+ul.default-sidebar .sub-menu a{
+	padding-left:15px;
+	padding-right:0;
+}
+ul.default-sidebar a{
+	padding-left:5px;
+	padding-right:0;
+}
+
+ul.default-sidebar ul li a i,ul.default-sidebar li a i{
+	float:right;
+}
+
+ul.default-sidebar .sub-menu a:before{
+	left:3px;
+	right: auto;
+}
+
+
+@media only screen and (max-width: 800px) {
+	#no-more-tables td { 
+		padding-left: 50%;
+		padding-right: 0;
+		text-align: left;
+	}
+	#no-more-tables td:before { 
+				right: auto;
+				left:6px;
+				text-align:left;
+	}
+}
+
+.searchForPapers .navbar-form{
+	float:left;
+}
+
+.single-person-box .person--image,.single-person-box .person--info,
+.single-person-box .person--info span,.single-person-box .person--image img,
+.single-person-box .person--image a
+{
+	float:left;
+}
+
+.single-person-box .person--image{
+	margin-right:2%;
+	margin-left:0;
+}
+@media(max-width:767px){
+	.single-person-box .person--image img{
+		float:none;
+	}
+}
